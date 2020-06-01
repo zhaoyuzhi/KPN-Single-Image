@@ -43,3 +43,45 @@ GT | Input | Denoised by KPN-Single-Image
 ![Represent](./img/train_epoch56_gt.png)
 ![Represent](./img/train_epoch56_in.png)
 ![Represent](./img/train_epoch56_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch57_gt.png)
+![Represent](./img/train_epoch57_in.png)
+![Represent](./img/train_epoch57_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch58_gt.png)
+![Represent](./img/train_epoch58_in.png)
+![Represent](./img/train_epoch58_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch59_gt.png)
+![Represent](./img/train_epoch59_in.png)
+![Represent](./img/train_epoch59_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch60_gt.png)
+![Represent](./img/train_epoch60_in.png)
+![Represent](./img/train_epoch60_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch61_gt.png)
+![Represent](./img/train_epoch61_in.png)
+![Represent](./img/train_epoch61_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch62_gt.png)
+![Represent](./img/train_epoch62_in.png)
+![Represent](./img/train_epoch62_pred.png)
+
+GT | Input | Denoised by KPN-Single-Image
+
+![Represent](./img/train_epoch63_gt.png)
+![Represent](./img/train_epoch63_in.png)
+![Represent](./img/train_epoch63_pred.png)
