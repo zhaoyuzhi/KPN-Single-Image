@@ -2,6 +2,8 @@
 
 kernel prediction network works for single image denoising
 
+models are available via this [OneDrive link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EuR2U0LqQyxDtgK06ObvK8gBsvKk3ez0miHSjWMIfkqcpQ?e=lwz1RX)
+
 GT | Input | Denoised by KPN-Single-Image
 
 ![Represent](./img/train_epoch50_gt.png)
