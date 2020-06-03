@@ -92,9 +92,9 @@ GT | Input | Denoised by KPN-Single-Image
 
 Trained models are available via this [OneDrive link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EuR2U0LqQyxDtgK06ObvK8gBsvKk3ez0miHSjWMIfkqcpQ?e=lwz1RX)
 
-If you want to train your own data:
+If you want to train your own data, change arg `baseroot` to your own data path, then run:
 ```bash
-sh run.sh (change arg 'baseroot')
+sh run.sh
 ```
 
 ## 3 Validation
@@ -104,6 +104,6 @@ We only provide one kind of model for specific noise level. If you want to test 
 python validation.py
 ```
 
-# 4 Acknowledgement
+## 4 Acknowledgement
 
 This KPN code is borrowed from the [project](https://github.com/z-bingo/kernel-prediction-networks-PyTorch).
