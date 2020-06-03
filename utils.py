@@ -202,14 +202,3 @@ class GradLoss(nn.Module):
         
         return self.GradLoss_weight * (h_loss + w_loss)
 '''
-
-if __name__ == "__main__":
-
-    imglist = get_files('./samples')
-    namelist = get_jpgs('./samples')
-    print(imglist[0])
-    for i, item in enumerate(imglist):
-        img = cv2.imread(imglist[i])
-        img = np.clip((img - 128), 0, 128)
-        img = (img * 2).astype(np.uint8)
-        cv2.imwrite(namelist[i], img)
