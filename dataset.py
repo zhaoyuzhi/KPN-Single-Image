@@ -111,8 +111,9 @@ class DenoisingValDataset(Dataset):
                     H_out = int(math.floor(H_in * float(W_out) / float(W_in)))
             img = cv2.resize(img, (W_out, H_out))
         # random crop
-        cropper = RandomCrop(img.shape[:2], (self.opt.crop_size, self.opt.crop_size))
-        img = cropper(img)
+        if self.opt.crop:
+            cropper = RandomCrop(img.shape[:2], (self.opt.crop_size, self.opt.crop_size))
+            img = cropper(img)
         # random rotate and horizontal flip
         # according to paper, these two data augmentation methods are recommended
         if self.opt.angle_aug:
