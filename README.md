@@ -1,8 +1,8 @@
 # KPN-Single-Image
 
-kernel prediction network works for single image denoising
+A PyTorch implementation of kernel prediction network for single image denoising.
 
-models are available via this [OneDrive link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EuR2U0LqQyxDtgK06ObvK8gBsvKk3ez0miHSjWMIfkqcpQ?e=lwz1RX)
+## 1 Samples
 
 GT | Input | Denoised by KPN-Single-Image
 
@@ -87,3 +87,23 @@ GT | Input | Denoised by KPN-Single-Image
 ![Represent](./img/train_epoch63_gt.png)
 ![Represent](./img/train_epoch63_in.png)
 ![Represent](./img/train_epoch63_pred.png)
+
+## 2 Training
+
+Trained models are available via this [OneDrive link](https://portland-my.sharepoint.com/:f:/g/personal/yzzhao2-c_ad_cityu_edu_hk/EuR2U0LqQyxDtgK06ObvK8gBsvKk3ez0miHSjWMIfkqcpQ?e=lwz1RX)
+
+If you want to train your own data:
+```bash
+sh run.sh (change arg 'baseroot')
+```
+
+## 3 Validation
+
+We only provide one kind of model for specific noise level. If you want to test your own data, change the arg `baseroot` to the path to your validation set, `save_name` to saving path, and `load_name` to trained model path.
+```bash
+python validation.py
+```
+
+# 4 Acknowledgement
+
+This KPN code is borrowed from the [project](https://github.com/z-bingo/kernel-prediction-networks-PyTorch).
