@@ -36,9 +36,8 @@ def weights_init(net, init_type = 'normal', init_gain = 0.02):
     net.apply(init_func)
 
 # ----------------------------------------
-#        Self-Guided Network (SGN)
+#      Kernel Prediction Network (KPN)
 # ----------------------------------------
-# KPN基本网路单元
 class Basic(nn.Module):
     def __init__(self, in_ch, out_ch, g=16, channel_att=False, spatial_att=False):
         super(Basic, self).__init__()
